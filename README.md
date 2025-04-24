@@ -1,4 +1,4 @@
-# 🌐 System Daily Log
+# 🚀 Aplikasi Log Harian Pegawai
 
 Aplikasi ini digunakan untuk mencatat log harian kegiatan pegawai, melakukan verifikasi oleh atasan langsung, serta monitoring dalam bentuk kalender.
 
@@ -22,7 +22,7 @@ Aplikasi ini digunakan untuk mencatat log harian kegiatan pegawai, melakukan ver
 - ## 📦 Instalasi
 
 ```bash
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/andiajisaputra3/wps_intern_andi_aji_saputra.git
 cd nama-repo
 composer install
 cp .env.example .env
