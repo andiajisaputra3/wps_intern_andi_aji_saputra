@@ -28,8 +28,8 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
-npm install
-composer run dev
+npm install && npm run dev
+php artisan serve
 ```
 
 ## 👤 Akun Login Default (Seeder)
