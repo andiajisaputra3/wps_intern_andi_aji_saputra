@@ -14,7 +14,7 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
-Route::middleware(['auth', 'verified', 'role:admin|manager|direktur|staff'])->group(function () {
+Route::middleware(['auth', 'verified', 'role:admin|manager|direktur'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 });
 
